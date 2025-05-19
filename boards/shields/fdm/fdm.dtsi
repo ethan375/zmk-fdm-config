@@ -26,6 +26,7 @@
 
    chosen {
       zmk,physical-layout = &physical_layout0;
+      zmk,kscan = &kscan0;
    };
 };
 
