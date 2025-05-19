@@ -6,6 +6,11 @@
   chosen {
     zmk,physical-layout = &default_layout;
     zmk,kscan = &default_kscan;
+    zmk,battery = &vbatt;
+  };
+
+  vbatt: vbatt {
+    compatible = "zmk,battery-nrf-vddh";
   };
 
   default_layout: physical_layout_0 {
