@@ -11,7 +11,7 @@
       default_layer {
         display-name = "Base";
         bindings = <
-          &kp F1 &kp F2 &kp F3 &kp F4 &kp &mo 1                   &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
+          &kp F1 &kp F2 &kp F3 &kp F4 &mo 1                       &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
           &kp N1 &kp N2 &kp N3 &kp N4 &kp N5                      &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
           &kp Q &kp W &kp E &kp R &kp T &kp DEL                   &kp Y &kp U &kp I &kp O &kp P
           &kp A &kp S &kp D &kp F &kp G &kp END                   &kp H &kp J &kp K &kp L &kp SEMI 
@@ -25,12 +25,7 @@
       lower_layer {
         display-name = "layer 2";
         bindings = <
-          &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &BT_SEL 3 &trans   &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
-          &kp N1 &kp N2 &kp N3 &kp N4 &kp N5                      &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-          &kp Q &kp W &kp E &kp R &kp T &kp DEL                   &kp Y &kp U &kp I &kp O &kp P
-          &kp A &kp S &kp D &kp F &kp G &kp END                   &kp H &kp J &kp K &kp L &kp SEMI 
-                &kp X &kp C &kp V &kp B &kp HOME                  &kp N &kp M &kp COMMA &kp PERIOD
-          &kp Z &kp LBKT &kp RBKT &kp LALT &kp LCTRL &kp ESC      &kp TAB &kp BSLH &kp PSCRN &kp LEFT_WIN &kp RSHIFT &kp LSHIFT &kp SLASH 
+          &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &BT_SEL 3 &trans   
         >;
       };
     };
