@@ -8,9 +8,9 @@
     zmk,kscan = &default_kscan;
   };
 
-  &default_layout {
-    transform = &default_transform;
-  };
+ // &default_layout {
+//    transform = &default_transform;
+//  };
 
   default_kscan: kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
