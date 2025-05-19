@@ -4,7 +4,7 @@
 / {
 
   chosen {
-    zmk,physical-layout = "zmk,default_layout";
+    zmk,physical-layout = &default_layout;
     zmk,kscan = &default_kscan;
   };
 
