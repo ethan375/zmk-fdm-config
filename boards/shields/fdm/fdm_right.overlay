@@ -1,7 +1,7 @@
 #include "fdm.dtsi"
 
 
-&kscan0 {
+&default_kscan {
 
     col-gpios
         = <&gpio1 15 GPIO_ACTIVE_HIGH>
