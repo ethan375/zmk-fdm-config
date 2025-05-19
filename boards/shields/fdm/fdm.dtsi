@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <fdm_layouts.dtsi>
+#include <physical_layouts.dtsi>
 
 / {
   kscan0: kscan0 {
@@ -9,7 +9,7 @@
   };
    default_transform: keymap_transform0 {
     compatible = "zmk,matrix-transform";
-    columns = <11>;
+    columns = <13>;
     rows = <6>;
     map = <
       // LKey 1                                                 RKey 1
