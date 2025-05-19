@@ -18,7 +18,7 @@ if SHIELD_FDM_LEFT || SHIELD_FDM_RIGHT
 
 endif
 
-if SHIELF_FDM_RIGHT
+if SHIELD_FDM_RIGHT
   
   config ZMK_SPLIT_ROLE_CENTRAL
     default n 
