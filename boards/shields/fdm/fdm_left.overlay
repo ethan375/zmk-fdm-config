@@ -18,7 +18,7 @@
 
     row-gpios
       = <&pro_micro 006 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-      , <&pro_micro 008 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
       , <&pro_micro 018 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
       , <&pro_micro 020 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
       , <&pro_micro 022 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>

@@ -13,8 +13,9 @@
           &kp A &kp S &kp D &kp F &kp G &kp END   &kp H &kp J &kp K &kp L &kp ;
           &kp X &kp C &kp V &kp B &kp HOME        &kp N &kp M &kp , &kp .
           &kp Z &kp [ &kp ] &kp ALT &kp CTRL      &kp ESC &kp TAB &kp \ &kp PRTSC &kp SUPER &kp THING1 &kp THING2 &kp /
+        >;
 
 
-      }
-    }
-}
+      };
+    };
+};
