@@ -33,6 +33,7 @@
       display-name = "Default Layout";
       kscan = <&kscan0>;
       transform = <&default_transform>;
+      status = "okay";
     };
 };
 
