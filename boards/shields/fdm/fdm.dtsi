@@ -1,5 +1,5 @@
-#include <dt-bindings/zmk/matrix-transform.h>
-#include <fdm-layouts.dtsi>
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <fdm_layouts.dtsi>
 
 / {
   kscan0: kscan0 {
