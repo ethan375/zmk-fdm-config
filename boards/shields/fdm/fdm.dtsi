@@ -8,6 +8,7 @@
     diode-direction = "col2row";
     wakeup-source;
   };
+
    default_transform: keymap_transform0 {
     compatible = "zmk,matrix-transform";
     columns = <13>;
@@ -28,7 +29,7 @@
 //    transform = <&default_transform>;
 //  };
 
-  chosen {
-    zmk, physical-layout = &physical_layout0;
-  };
+   chosen {
+      zmk,physical-layout = &physical_layout0;
+    };
 };
