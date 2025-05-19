@@ -1,7 +1,7 @@
 if SHIELD_FDM_LEFT
 
-  config ZMK_SPLIT_KB
-    default "ethans kb"
+  config ZMK_KEYBOARD_NAME
+    default "split kb"
 
   config ZMK_SPLIT_ROLE_CENTRAL
     default y
