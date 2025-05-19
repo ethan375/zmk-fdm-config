@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "fdm_layouts.dtsi"
+//#include "fdm_layouts.dtsi"
 
 / {
 
@@ -8,9 +8,15 @@
     zmk,kscan = &default_kscan;
   };
 
-  &default_layout {
-    transform = <&default_transform>;
+  default_layout: physical_layout_0 {
+    compatible = "zmk,physical-layout";
+    display-name = "Default layer";
+    transform = &default_transform;
   };
+
+  //&default_layout {
+  //  transform = <&default_transform>;
+  //};
 
   default_kscan: kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
