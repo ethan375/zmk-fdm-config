@@ -1,6 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "fdm_layouts.dtsi"
-//#include <physical_layouts.dtsi>
+//#include "fdm_layouts.dtsi"
 
 / {
   kscan0: kscan0 {
@@ -28,6 +27,13 @@
       zmk,physical-layout = &physical_layout0;
       zmk,kscan = &kscan0;
    };
+
+    physical_layout0: physical_layout_0 {
+      compatible = "zmk,physical_layout";
+      display-name = "Default Layout";
+      kscan = <&kscan0>;
+      transform = <&default_transform>;
+    };
 };
 
 //&physical_layout0 {
