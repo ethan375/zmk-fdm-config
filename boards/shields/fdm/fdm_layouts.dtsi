@@ -1,6 +1,6 @@
 / {
     physical_layout0: physical_layout_0 {
     compatible = "zmk,physical_layout";
-    display-name = "default_layer";
+    display-name = "Default Layout";
     };
 };
