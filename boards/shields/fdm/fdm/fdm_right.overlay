@@ -1,0 +1,32 @@
+#include "fdm.dtsi"
+
+
+
+&default_transform {
+  col-offset = <6>
+}
+
+&kscan0 {
+
+    col-gipos
+        = <&pro_micro 115 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 113 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 011 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 010 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 009 GPIO_ACTIVE_HIGH>
+        ;
+    
+
+
+
+    row-gpios
+      = <&pro_micro 022 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 024 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 100 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 011 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 104 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 106 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      ;
+
+};
+

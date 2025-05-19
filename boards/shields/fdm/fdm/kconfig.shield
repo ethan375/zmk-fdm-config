@@ -1,0 +1,5 @@
+config SHIELD_FDM_RIGHT
+   def_bool $(shields_list_contains,fdm_right)
+
+config SHIELD_FDM_LEFT
+   def_bool $(shields_list_contains,fdm_left)
