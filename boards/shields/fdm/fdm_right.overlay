@@ -25,8 +25,9 @@
 
 };
 
-&default_transform {
-  col-offset = <6>;
-};
+
+//&default_transform {
+//  col-offset = <6>;
+//};
 
 
