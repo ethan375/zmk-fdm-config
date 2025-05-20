@@ -26,8 +26,7 @@
       bt_layer {
         display-name = "layer 2";
         bindings = <
-          &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 
-          &studio_unlock 
+          &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &trans          &studio_unlock 
         >;
       };
       
@@ -36,6 +35,10 @@
       }; 
 
       studio_layer {
+        status = "reserved";
+      };
+
+      bla_layer {
         status = "reserved";
       };
 
