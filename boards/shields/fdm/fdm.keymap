@@ -7,7 +7,6 @@
     keymap {
       compatible = "zmk,keymap";
       layout = <&default_layout>;
-      &studio_unlock;
 
       default_layer {
         display-name = "Base";
