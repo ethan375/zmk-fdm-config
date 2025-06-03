@@ -26,4 +26,8 @@ if SHIELD_FDM_RIGHT
   config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
     default y
 
+
+  config ZMK_SLEEP 
+    default y
+
 endif
