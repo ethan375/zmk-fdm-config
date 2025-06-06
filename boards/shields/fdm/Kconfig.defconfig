@@ -16,6 +16,17 @@ if SHIELD_FDM_LEFT || SHIELD_FDM_RIGHT
   config ZMK_SPLIT_BLE
     default y
 
+  config ZMK_IDLE_TIMEOUT
+    default 300000
+
+  config ZMK_IDLE_SLEEP_TIMEOUT
+    default 600000
+
+  config ZMK_SLEEP
+    default y 
+
+  config ZMK_SLEEP_
+
 endif
 
 if SHIELD_FDM_RIGHT
@@ -26,8 +37,5 @@ if SHIELD_FDM_RIGHT
   config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
     default y
 
-
-  config ZMK_SLEEP 
-    default y
 
 endif
